@@ -50216,6 +50216,13 @@ BattleMoveAnims['mirrorcannon'] = {
 		BattleMoveAnims['flashbang'].anim(scene, [attacker, defender]);
 	},
 }; 
+BattleMoveAnims['acidreflex'] = {
+	anim(scene, [attacker, defender]) {
+		BattleMoveAnims['sludgebomb'].anim(scene, [attacker, defender]);
+		BattleMoveAnims['gunkshot'].anim(scene, [attacker, defender]);
+		BattleMoveAnims['extremespeed'].anim(scene, [attacker, defender]);
+	},
+}; 
 BattleMoveAnims['blockbuster'] = {
 	anim(scene, [attacker, defender]) {
 		BattleMoveAnims['focuspunch'].anim(scene, [attacker, defender]);
@@ -50228,7 +50235,7 @@ BattleMoveAnims['carvingbeak'] = {
 		BattleMoveAnims['drillrun'].anim(scene, [attacker, defender]);
 		BattleMoveAnims['fractus'].anim(scene, [attacker, defender]);
 	},
-}; 																	  
+};															  
 BattleMoveAnims['brainfreeze'] = {
 	anim(scene, [attacker, defender]) {
 		BattleMoveAnims['flash'].anim(scene, [attacker, defender]);
