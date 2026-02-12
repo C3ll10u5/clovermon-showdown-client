@@ -1193,6 +1193,18 @@ class BattleTooltips {
 			stats.spa *= 2;
 		}
 
+		if (item === 'powermask' && species === 'Naughtycoot') {
+			stats.atk *= 2;
+		}
+
+		if (item === 'chargedmicrophone' && species === 'Ampstar') {
+			stats.atk *= 2;
+		}
+
+		if (item === 'chargedmicrophone' && species === 'Ampstar') {
+			stats.spa *= 2;
+		}
+
 		if (item === 'bigfaggot' && species === 'Flameboyan') {
 			stats.spa *= 2;
 		}
